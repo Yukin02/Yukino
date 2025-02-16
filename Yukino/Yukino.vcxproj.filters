@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{756fd6ae-201e-4a90-a5ba-58d0b280b994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HyperVisor">
+      <UniqueIdentifier>{ea85fff3-3e1d-4126-a825-99b2a4b319a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HyperVisor\Vmx">
+      <UniqueIdentifier>{b70565c7-5023-42af-b5a9-c1b4ecc46942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{aa079770-a5c2-430a-8406-1b5e28948556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{20990b08-af8a-4ade-ae28-73465ae54241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembly">
+      <UniqueIdentifier>{d7d86447-0475-4af7-9175-cc3e585e0dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HyperVisor\VmExit">
+      <UniqueIdentifier>{c9b79077-dd44-41f8-88f3-3dd6c2e846d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HyperVisor\VmCall">
+      <UniqueIdentifier>{e1d15f3a-164d-4dbb-9a5e-584f9d02c4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{97d07d1c-9af2-48b3-8b82-e089e6373033}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperVisor.c">
+      <Filter>HyperVisor</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.c">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vmx.c">
+      <Filter>HyperVisor\Vmx</Filter>
+    </ClCompile>
+    <ClCompile Include="VmxRoutines.c">
+      <Filter>HyperVisor\Vmx</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.c">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="MsrBitMap.c">
+      <Filter>HyperVisor</Filter>
+    </ClCompile>
+    <ClCompile Include="VmCall.c">
+      <Filter>HyperVisor\VmCall</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitDispatch.c">
+      <Filter>HyperVisor\VmExit</Filter>
+    </ClCompile>
+    <ClCompile Include="VmExit.c">
+      <Filter>HyperVisor\VmExit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperVisor.h">
+      <Filter>HyperVisor</Filter>
+    </ClInclude>
+    <ClInclude Include="VmxRoutines.h">
+      <Filter>HyperVisor\Vmx</Filter>
+    </ClInclude>
+    <ClInclude Include="Vmx.h">
+      <Filter>HyperVisor\Vmx</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualState.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ia32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmVmExit.h">
+      <Filter>Assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmVmx.h">
+      <Filter>Assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="MsrBitMap.h">
+      <Filter>HyperVisor</Filter>
+    </ClInclude>
+    <ClInclude Include="VmCall.h">
+      <Filter>HyperVisor\VmCall</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitDispatch.h">
+      <Filter>HyperVisor\VmExit</Filter>
+    </ClInclude>
+    <ClInclude Include="VmExit.h">
+      <Filter>HyperVisor\VmExit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="AsmVmExit.asm">
+      <Filter>Assembly</Filter>
+    </MASM>
+    <MASM Include="AsmVmx.asm">
+      <Filter>Assembly</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
